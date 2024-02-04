@@ -51,6 +51,7 @@ body {
 
 .hero {
     display: flex;
+    gap: 48px;
 }
 
 .hero-card h1 {
