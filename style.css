@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Roboto, sans-serif;
 
@@ -77,4 +81,42 @@ body {
 
 .hero-card {
     flex: 1;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    gap: 48px;
+}
+
+.information .title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    width: 144px;
+    gap: 8px;
+}
+
+.info-card .info-image {
+    height: 144px;
+    border: 4px #3882F6 solid;
+    border-radius: 10%;
+}
+
+.info-card .subtext {
+    color: #1F2937;
+    text-align: center;
 }
