@@ -143,3 +143,40 @@ body {
     align-self: flex-end;
     font-size: 24px;
 }
+
+.action-container {
+    padding: 64px 128px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+    padding: 48px 64px;
+}
+
+
+.action .text-main {
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.action .text-description {
+    font-size: 16px;
+    font-weight: 100;       
+}
+
+.action button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 32px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+}
