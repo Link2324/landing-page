@@ -121,3 +121,25 @@ body {
     color: #1F2937;
     text-align: center;
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 96px 312px;
+    gap: 8px;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-section .name {
+    font-weight: 800;
+    align-self: flex-end;
+    font-size: 24px;
+}
