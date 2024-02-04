@@ -180,3 +180,10 @@ body {
     font-size: larger;
     font-weight: bold;
 }
+
+.footer {
+    color: #F9FAF8;
+    text-align: center;
+    background-color: #1F2937;
+    padding: 48px;
+}
